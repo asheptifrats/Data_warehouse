@@ -1,0 +1,8 @@
+assignment_4:
+
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'assignment_4.duckdb'
+      threads: 1

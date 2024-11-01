@@ -1,0 +1,11 @@
+
+    
+    
+    truncate table "assignment_4"."main"."products";
+    -- dbt seed --
+    
+          COPY "assignment_4"."main"."products" FROM 'C:\Users\acer\PycharmProjects\pythonProject3\seeds\products.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  
